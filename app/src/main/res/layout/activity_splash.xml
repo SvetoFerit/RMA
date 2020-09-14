@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/feritLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="531dp"
+        android:src="@drawable/feritos" />
+
+    <ImageView
+        android:id="@+id/SplashRunLogo"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_alignTop="@+id/feritLogo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="456dp"
+        android:layout_marginBottom="125dp"
+        android:src="@drawable/run" />
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/SplashActivityText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+</RelativeLayout>
